@@ -14,6 +14,3 @@ def shop_trip() -> None:
 
     for customer_dict in customers:
         customer_dict.to_do_the_trip(shops, fuel_price)
-
-
-shop_trip()
